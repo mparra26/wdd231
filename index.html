@@ -2,74 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Timbuktu Chamber of Commerce</title>
-
-  <!-- Meta description for SEO -->
-  <meta name="description" content="The official Timbuktu Chamber of Commerce website promoting local businesses, community events, and networking opportunities in Timbuktu.">
-  <!-- Meta author -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 231 Home Page - Web and Computer Programming">
   <meta name="author" content="Mikel Parra">
-
-  <!-- Google Fonts preconnect for performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <!-- Google Fonts combined link -->
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
-
+  <title>WDD 231 Home</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="discover.html">Discover</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li><a href="join.html">Join</a></li>
-      </ul>
-    </nav>
+    <img src="images/logo.jpg" alt="Site Logo">
+    <span>Mikel Parra</span>
+    <button id="menu" aria-label="Toggle navigation menu">☰</button>
   </header>
 
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="chamber/">Chamber</a>
+    <a href="final/">Final</a>
+  </nav>
+
   <main>
-    <h1>Timbuktu Chamber of Commerce</h1>
+    <h1>Home</h1>
 
-    <section id="hero">
-      <h2>Welcome to the Timbuktu Chamber of Commerce</h2>
-      <p>Promoting local businesses and fostering community growth.</p>
+    <section>
+      <h2>About This Site</h2>
+      <p>This site is about my course certiffication credits and class taken so far.</p>
     </section>
 
-    <section id="community-info">
-      <h3>Community News & Events</h3>
-      <p>Check out the latest events and news happening around Timbuktu.</p>
+    <section>
+      <h2>Course Certificate: Web and Computer Programming</h2>
+      <div>
+        <button id="allBtn">All Courses</button>
+        <button id="wddBtn">WDD Courses</button>
+        <button id="cseBtn">CSE Courses</button>
+      </div>
+      <div id="courseContainer"></div>
+      <p>Total Credits: <span id="creditTotal">0</span></p>
     </section>
 
-    <section id="weather">
-      <h3>Current Weather</h3>
-      <p>Sunny, 85°F</p>
-    </section>
-
-    <section id="business-spotlight">
-      <h3>Business Spotlight</h3>
-      <article>
-        <h4>Maria's Boutique</h4>
-        <p>Local handcrafted goods with a personal touch.</p>
-      </article>
-      <article>
-        <h4>Diego's Tech Solutions</h4>
-        <p>Innovative tech services for small and medium businesses.</p>
-      </article>
+    <section>
+      <h2>Other Interests</h2>
+      <p>Work at a construction company as a construction material technician. I enjoy playing soccer, swimming, practicing mixed martial arts, and currently enjoying the school program.</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Timbuktu Chamber of Commerce</p>
+    <p>&copy; <span id="2025"></span> Mikel Parra | North Carolina</p>
+    <p id="07/04/2025"></p>
+    <div class="social">
+      <a href="https://github.com/mparra26/wdd231" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/mikel-parra-79ab28218/" target="_blank">LinkedIn</a>
+      <!-- Add 1-2 more if you'd like -->
+    </div>
   </footer>
-
-<!-- Link to external JavaScript file -->
-  <script src="scripts/main.js"></script>
-
-  <img src="images/*" alt="Hero image">
-
 </body>
 </html>

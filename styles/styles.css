@@ -1,67 +1,20 @@
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@media (min-width: 640px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
 
-/* Basic body styles */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f4f8; /* light background */
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
-}
+  #menu {
+    display: none;
+  }
 
-/* Header and navigation */
-header {
-  background-color: #004080; /* Primary color example */
-  color: white;
-  padding: 10px 20px;
-}
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 
-header h1 {
-  margin-bottom: 10px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Sections */
-section {
-  margin-bottom: 30px;
-  padding: 10px;
-  background-color: white;
-  border-radius: 6px;
-  box-shadow: 0 0 6px rgba(0,0,0,0.1);
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 0.9rem;
-  color: #777;
-}
-
-/* Responsive nav for small screens */
-@media (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
+  section {
+    grid-column: span 2;
   }
 }
