@@ -25,7 +25,7 @@
     "image": "Lizzie.png",
     "membershipLevel": 1,
     "notes": "Local artisan crafts."
-  }
+  },
   {
     "name": "Carol Johnson",
     "address": "123 Main St, Cityville",
@@ -52,5 +52,5 @@
     "image": "Kelly.png",
     "membershipLevel": 3,
     "notes": "Leading industry supplier."
-  },
+  }
 ]
