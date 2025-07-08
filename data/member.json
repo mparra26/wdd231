@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Alex Smith",
+    "address": "123 Main St, Cityville",
+    "phone": "555-1234",
+    "website": "https://www.alphacorp.com",
+    "image": "Alex.png",
+    "membershipLevel": 3,
+    "notes": "Leading industry supplier."
+  },
+  {
+    "name": "John Doe",
+    "address": "456 Oak Rd, Townsville",
+    "phone": "555-5678",
+    "website": "https://www.betasolutions.com",
+    "image": "John.png",
+    "membershipLevel": 2,
+    "notes": "Innovative tech company."
+  },
+  {
+    "name": "Lizzie Brown",
+    "address": "789 Pine Ln, Villagetown",
+    "phone": "555-9012",
+    "website": "https://www.gammagoods.com",
+    "image": "Lizzie.png",
+    "membershipLevel": 1,
+    "notes": "Local artisan crafts."
+  }
+  {
+    "name": "Carol Johnson",
+    "address": "123 Main St, Cityville",
+    "phone": "555-1234",
+    "website": "https://www.alphacorp.com",
+    "image": "Carol.png",
+    "membershipLevel": 3,
+    "notes": "Leading industry supplier."
+  },
+  {
+    "name": "Kevin White",
+    "address": "123 Main St, Cityville",
+    "phone": "555-1234",
+    "website": "https://www.alphacorp.com",
+    "image": "Kevin.png",
+    "membershipLevel": 3,
+    "notes": "Leading industry supplier."
+  },
+  {
+    "name": "Kelly Green",
+    "address": "123 Main St, Cityville",
+    "phone": "555-1234",
+    "website": "https://www.alphacorp.com",
+    "image": "Kelly.png",
+    "membershipLevel": 3,
+    "notes": "Leading industry supplier."
+  },
+]
