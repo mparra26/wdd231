@@ -9,68 +9,79 @@
 
   <title>Mikel Parra | WDD 231 - Web Frontend Development I</title>
 
-  <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet" href="styles/small.css">
-  <link rel="stylesheet" href="styles/large.css">
-
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
 
-  <script src="scripts/navigation.js" defer></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <!-- JavaScript -->
   <script src="scripts/date.js" defer></script>
   <script src="scripts/course.js" defer></script>
 </head>
-
 <body>
   <header>
-    <img src="images/logo.jpg" alt="Site Logo">
-    <span>Mikel Parra</span>
-    <button id="menu" aria-label="Toggle navigation menu">☰</button>
+    <span id="course-title">WDD 231 – Dynamic Web Fundamentals</span>
+    <nav>
+      <a href="https://www.linkedin.com/in/mikel-parra-79ab28218/" target="_blank">LinkedIn</a>
+      <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Scripture</a>
+      <a href="final/index.html">Final Project</a>
+      <a href="chamber/directory.html">chamber</a>
+    </nav>
   </header>
 
-  <nav id="navMenu">
-    <a href="index.html">Home</a>
-    <a href="chamber/directory.html">Directory</a>
-    <a href="chamber/">Chamber</a>
-    <a href="final/">Final</a>
-  </nav>
-
   <main>
-    <h1>Home</h1>
+    <h1>Mikel Parra</h1>
 
-    <section>
-      <h2>About This Site</h2>
-      <p>This site is about my course certiffication credits and class taken so far.</p>
+    <section class="card">
+      <h2>About Me</h2>
+      <img src="images/logo.jpg" alt="Mikel Parra profile photo" loading="lazy" width="300">
+      <p>Hello! I work in construction material testing and enjoy soccer, swimming, and martial arts. I’m pursuing Web and Computer Programming to transition into tech.</p>
     </section>
 
-    <section>
-      <h2>Course Certificate: Web and Computer Programming</h2>
+    <section class="card">
+      <h2>WDD 231 Projects</h2>
+      <img src="images/BYU.jpg" alt="Code and Projects" loading="lazy" width="300">
+      <p>This site showcases my work in WDD 231 including JavaScript features, responsive design, and final project development. Stay tuned for new updates!</p>
+    </section>
+  
+    <section class="card">
+      <h2>Course Certificates: Web and Computer Programming</h2>
       <div>
         <button id="allBtn">All Courses</button>
         <button id="wddBtn">WDD Courses</button>
         <button id="cseBtn">CSE Courses</button>
       </div>
       <div id="courseContainer"></div>
-      <p>Total Credits: <span id="creditTotal">0</span></p>
+      <p>Total Credits: <span id="creditTotal">12</span></p>
     </section>
-
-    <section>
-      <h2>Other Interests</h2>
-      <p>Work at a construction company as a construction material technician. I enjoy playing soccer, swimming,
-        practicing mixed martial arts, and currently enjoying the school program.</p>
-    </section>
+  
   </main>
 
   <footer>
-    <p>&copy; <span id="2025"></span> Mikel Parra | North Carolina</p>
-    <p id="07/04/2025"></p>
-    <div class="social">
-      <a href="https://github.com/mparra26/wdd231" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/mikel-parra-79ab28218/" target="_blank">LinkedIn</a>
-      <!-- Add 1-2 more if you'd like -->
-    </div>
-  </footer>
-</body>
-
-</html>
+  <p>&copy; <span id="2025"></span> Mikel Parra | North Carolina</p>
+  <p id="07/08/25"></p>
+  
+  <div class="social">
+  <a href="https://github.com/mparra26/wdd231" target="_blank" aria-label="GitHub">
+    <img src="images/github.jpg" alt="GitHub icon" />
+  </a>
+  <a href="https://www.linkedin.com/in/mikel-parra-79ab28218/" target="_blank" aria-label="LinkedIn">
+    <img src="images/linkid.jpg" alt="LinkedIn icon" />
+  </a>
+  <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+    <img src="images/facebook.jpg" alt="Facebook icon" />
+  </a>
+  <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+    <img src="images/instagram.jpg" alt="Instagram icon" />
+  </a>
+  <a href="https://twitter.com/" target="_blank" aria-label="X (Twitter)">
+    <img src="images/X(twitter).jpg" alt="X (Twitter) icon" />
+  </a>
+</div>
+</footer>
