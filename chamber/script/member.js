@@ -1,81 +1,45 @@
-const membersContainer = document.getElementById('membersContainer');
-const gridBtn = document.getElementById('gridBtn');
-const listBtn = document.getElementById('listBtn');
+// Populate current year and last modified date
+document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("lastModified").textContent = document.lastModified;
 
-async function fetchMembers() {
-  try {
-    const response = await fetch('data/members.json');
-    if (!response.ok) {
-      throw new Error('Failed to fetch members');
-    }
-    const members = await response.json();
-    displayMembers(members);
-  } catch (error) {
-    membersContainer.textContent = 'Error loading members.';
-    console.error(error);
-  }
+document.getElementById("gridBtn").addEventListener("click", () => {
+  container.classList.add("grid-view");
+  container.classList.remove("list-view");
+});
+
+document.getElementById("listBtn").addEventListener("click", () => {
+  container.classList.add("list-view");
+  container.classList.remove("grid-view");
+});
+
+const container = document.getElementById("membersContainer");
+
+async function getMembers() {
+  const response = await fetch("data/members.json");
+  const members = await response.json();
+  displayMembers(members);
 }
 
 function displayMembers(members) {
-  membersContainer.innerHTML = '';
+  container.innerHTML = '';
   members.forEach(member => {
-    const card = document.createElement('div');
-    card.classList.add('member-card');
+    const card = document.createElement("section");
+    card.classList.add("member");
 
     card.innerHTML = `
-      <img src="images/${member.image}" alt="${member.name} logo" />
+      <img src="${member.image}" alt="${member.name}" loading="lazy">
       <h3>${member.name}</h3>
-      <p><strong>Address:</strong> ${member.address}</p>
-      <p><strong>Phone:</strong> ${member.phone}</p>
-      <p><strong>Website:</strong> <a href="${member.website}" target="_blank" rel="noopener">${member.website}</a></p>
-      <p><strong>Membership Level:</strong> ${getMembershipLevelName(member.membershipLevel)}</p>
-      <p>${member.notes || ''}</p>
+      <p>${member.address}</p>
+      <p>${member.phone}</p>
+      <a href="${member.website}" target="_blank">Website</a>
+      <p class="membership">${getMembershipLevel(member.membership)}</p>
     `;
-    membersContainer.appendChild(card);
+    container.appendChild(card);
   });
 }
 
-function getMembershipLevelName(level) {
-  switch (level) {
-    case 1: return 'Member';
-    case 2: return 'Silver';
-    case 3: return 'Gold';
-    default: return 'Unknown';
-  }
+function getMembershipLevel(level) {
+  return level === 3 ? "Gold" : level === 2 ? "Silver" : "Member";
 }
 
-function setGridView() {
-  membersContainer.classList.add('grid-view');
-  membersContainer.classList.remove('list-view');
-  gridBtn.setAttribute('aria-pressed', 'true');
-  listBtn.setAttribute('aria-pressed', 'false');
-}
-
-function setListView() {
-  membersContainer.classList.add('list-view');
-  membersContainer.classList.remove('grid-view');
-  gridBtn.setAttribute('aria-pressed', 'false');
-  listBtn.setAttribute('aria-pressed', 'true');
-}
-
-gridBtn.addEventListener("click", () => {
-  container.classList.add("grid-view");
-  container.classList.remove("list-view");
-  gridBtn.setAttribute("aria-pressed", "true");
-  listBtn.setAttribute("aria-pressed", "false");
-});
-
-listBtn.addEventListener("click", () => {
-  container.classList.add("list-view");
-  container.classList.remove("grid-view");
-  gridBtn.setAttribute("aria-pressed", "false");
-  listBtn.setAttribute("aria-pressed", "true");
-});
-
-// Footer date scripts
-document.getElementById('year').textContent = new Date().getFullYear();
-document.getElementById('lastModified').textContent = document.lastModified;
-
-// Initial load
-fetchMembers();
-setGridView();
+getMembers();
