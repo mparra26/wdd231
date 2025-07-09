@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Timbuktu Chamber of Commerce | Business Directory</title>
-  <meta name="description" content="Directory of Chamber of Commerce members." />
-  <meta name="author" content="Mikel Parra">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <!-- Your CSS files -->
-  <link rel="stylesheet" href="styles/normalize.css" />
-  <link rel="stylesheet" href="styles/member.css" />
-</head>
+  <title>Timbuktu Chamber of Commerce | Business Directory</title>
+  <meta name="description" content="Explore the Timbuktu Chamber of Commerce directory showcasing local businesses, services, and trusted chamber members." />
+  <meta name="author" content="Mikel Parra" />
 
   <!-- Favicon -->
-  <link rel="icon" href="favicon/favicon.ico">
+  <link rel="icon" href="favicon/favicon.ico" />
 
   <!-- Open Graph Meta -->
-  <meta property="og:title" content="Timbuktu Chamber of Commerce Directory">
-  <meta property="og:description" content="Explore local businesses and chamber members in Timbuktu.">
-  <meta property="og:image" content="images/og-image.jpg">
-  <meta property="og:url" content="https://mparra26.github.io/wdd231/chamber/directory.html">
+  <meta property="og:title" content="Timbuktu Chamber of Commerce Directory" />
+  <meta property="og:description" content="Explore local businesses and chamber members in Timbuktu." />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:url" content="https://mparra26.github.io/wdd231/chamber/directory.html" />
 
-  <!-- CSS Files -->
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/member.css">
+  <!-- Google Fonts Preconnect & Embed -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet" />
 
-</head>
+  <!-- CSS files -->
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/member.css" />
+ </head>
 <body>
   <header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="directory.html" aria-current="page">Directory</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html" aria-current="page">Directory</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
-  <h1>Timbuktu Chamber of Commerce | Business Directory</h1>
+  <main>
+    <h1>Timbuktu Chamber of Commerce | Business Directory</h1>
 
-  <section>
-    <h2>Member Directory</h2>
-    <div class="view-buttons">
-      <button id="gridBtn" aria-pressed="true">Grid View</button>
-      <button id="listBtn" aria-pressed="false">List View</button>
-    </div>
+    <section>
+      <h2>Member Directory</h2>
+      <div class="view-buttons">
+        <button id="gridBtn" aria-pressed="true">Grid View</button>
+        <button id="listBtn" aria-pressed="false">List View</button>
+      </div>
 
-    <div id="membersContainer" class="grid-view">
-      <!-- JS will populate members here -->
-    </div>
-  </section>
-</main>
+      <div id="membersContainer" class="grid-view">
+        <!-- JS will populate members here -->
+      </div>
+    </section>
+  </main>
 
   <footer>
     <p>Contact us at info@chamber.com | Mikel Parra | WDD 231</p>
@@ -61,12 +61,8 @@
     <p>Last Modified: <span id="lastModified"></span></p>
   </footer>
 
-  <script src="script/member.js"></script>
-  <script src="script/footer.js"></script>
-  <script>
-    // Footer Date Script
-    document.getElementById("year").textContent = new Date().getFullYear();
-    document.getElementById("lastModified").textContent = document.lastModified;
-  </script>
+  <!-- Scripts -->
+  <script src="scripts/member.js"></script>
+  <script src="scripts/footer.js"></script>
 </body>
-</html>
+ </html>
