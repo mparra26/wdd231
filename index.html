@@ -3,18 +3,18 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="WDD 231 Home Page - Web and Computer Programming">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WDD 231 Web Frontend Development I - Mikel Parra. This page features coursework, certification credits, and web development projects.">
   <meta name="author" content="Mikel Parra">
 
-  <title>Mikel Parra | WDD 231 - Web Frontend Development I</title>
+  <title>WDD 231 Web Frontend Development I Mikel Parra</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
+  <!-- Styles -->
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/large.css">
@@ -22,36 +22,31 @@
   <!-- JavaScript -->
   <script src="scripts/date.js" defer></script>
   <script src="scripts/course.js" defer></script>
+  
 </head>
+
 <body>
   <header>
-    <span id="course-title">WDD 231 Dynamic Web Fundamentals</span>
-    <nav>
-      <a href="https://www.linkedin.com/in/mikel-parra-79ab28218/" target="_blank">LinkedIn</a>
-      <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
-      <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Scripture</a>
-      <a href="final/index.html">Final Project</a>
-      <a href="chamber/directory.html">chamber</a>
-    </nav>
+    <img src="images/BYU.jpg" alt="Site Logo">
+    <span id="course-title">WDD 231 Dynamic Web Fundamentals I</span>
+    <button id="menu" aria-label="Toggle navigation menu">☰</button>
   </header>
+
+  <nav id="navMenu">
+    <a href="chamber/directory.html" target="_blank">Chamber</a>
+    <a href="https://www.linkedin.com/in/mikel-parra-79ab28218/" target="_blank">LinkedIn</a>
+    <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+    <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Scripture</a>
+    <a href="final/" target="_blank">Final Project</a>
+    
+  </nav>
 
   <main>
     <h1>Mikel Parra</h1>
+    <h2>WDD 231 Dynamic Web Fundamentals I</h2>
 
     <section class="card">
-      <h2>About Me</h2>
-      <img src="images/logo.jpg" alt="Mikel Parra profile photo" loading="lazy" width="300">
-      <p>Hello! I work in construction material testing and enjoy soccer, swimming, and martial arts. I’m pursuing Web and Computer Programming to transition into tech.</p>
-    </section>
-
-    <section class="card">
-      <h2>WDD 231 Projects</h2>
-      <img src="images/BYU.jpg" alt="Code and Projects" loading="lazy" width="300">
-      <p>This site showcases my work in WDD 231 including JavaScript features, responsive design, and final project development. Stay tuned for new updates!</p>
-    </section>
-  
-    <section class="card">
-      <h2>Course Certificates: Web and Computer Programming</h2>
+      <h2>Course Certificate: Web and Computer Programming</h2>
       <div>
         <button id="allBtn">All Courses</button>
         <button id="wddBtn">WDD Courses</button>
@@ -60,28 +55,36 @@
       <div id="courseContainer"></div>
       <p>Total Credits: <span id="creditTotal">12</span></p>
     </section>
-  
+
+    <section class="card">
+      <h2>Other Interests</h2>
+      <img src="images/logo.jpg" alt="Mikel Parra Logo" width="100">
+  <p>I work as a construction material technician. I enjoy playing soccer, swimming, and practicing mixed martial arts. I’m also deeply engaged in my school program.</p>
+</section>
+
   </main>
 
   <footer>
-  <p>&copy; <span id="2025"></span> Mikel Parra | North Carolina</p>
-  <p id="07/08/25"></p>
-  
-  <div class="social">
-  <a href="https://github.com/mparra26/wdd231" target="_blank" aria-label="GitHub">
-    <img src="images/github.jpg" alt="GitHub icon" />
-  </a>
-  <a href="https://www.linkedin.com/in/mikel-parra-79ab28218/" target="_blank" aria-label="LinkedIn">
-    <img src="images/linkid.jpg" alt="LinkedIn icon" />
-  </a>
-  <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
-    <img src="images/facebook.jpg" alt="Facebook icon" />
-  </a>
-  <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
-    <img src="images/instagram.jpg" alt="Instagram icon" />
-  </a>
-  <a href="https://twitter.com/" target="_blank" aria-label="X (Twitter)">
-    <img src="images/X(twitter).jpg" alt="X (Twitter) icon" />
-  </a>
-</div>
-</footer>
+    <p>&copy; <span id="2025"></span> Mikel Parra | North Carolina</p>
+    <p id="07//08/25"></p>
+    <div class="social">
+      <a href="https://github.com/mparra26/wdd231" target="_blank">
+        <img src="images/github.jpg" alt="GitHub icon" width="24" /> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/mikel-parra-79ab28218/" target="_blank">
+        <img src="images/linkid.jpg" alt="LinkedIn icon" width="24"> LinkedIn
+      </a>
+      <a href="https://facebook.com" target="_blank">
+        <img src="images/facebook.jpg" alt="Facebook icon" width="24"> Facebook
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="images/instagram.jpg" alt="Instagram icon" width="24"> Instagram
+      </a>
+      <a href="https://x.com" target="_blank">
+        <img src="images/X(twitter).jpg" alt="X (Twitter) icon" width="24"> X
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
