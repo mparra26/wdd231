@@ -58,12 +58,18 @@ function setListView() {
   listBtn.setAttribute('aria-pressed', 'true');
 }
 
-gridBtn.addEventListener('click', () => {
-  setGridView();
+gridBtn.addEventListener("click", () => {
+  container.classList.add("grid-view");
+  container.classList.remove("list-view");
+  gridBtn.setAttribute("aria-pressed", "true");
+  listBtn.setAttribute("aria-pressed", "false");
 });
 
-listBtn.addEventListener('click', () => {
-  setListView();
+listBtn.addEventListener("click", () => {
+  container.classList.add("list-view");
+  container.classList.remove("grid-view");
+  gridBtn.setAttribute("aria-pressed", "false");
+  listBtn.setAttribute("aria-pressed", "true");
 });
 
 // Footer date scripts
