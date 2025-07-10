@@ -130,3 +130,19 @@ footer .social a {
 footer .social a:hover {
   text-decoration: underline;
 }
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.about-text {
+  text-align: center;
+}

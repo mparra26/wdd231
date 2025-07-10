@@ -48,4 +48,15 @@
     flex-direction: column;
     align-items: center;
   }
+
+  /* ABOUT SECTION */
+  .about-section {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .about-text {
+    max-width: 600px;
+  }
 }
