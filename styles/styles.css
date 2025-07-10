@@ -48,3 +48,24 @@
   text-align: center;
 }
 }
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.card li {
+  margin-bottom: 0.5rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: #1a4d8f;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.card a:hover {
+  color: #0d2c5d;
+  text-decoration: underline;
+}
