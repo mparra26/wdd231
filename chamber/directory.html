@@ -3,39 +3,37 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Directory of Timbuktu Chamber of Commerce members.">
-  <meta name="author" content="Mikel Parra">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Directory of Timbuktu Chamber of Commerce members." />
+  <meta name="author" content="Mikel Parra" />
 
   <!-- Social Media Meta Tags -->
-  <meta property="og:title" content="Timbuktu Chamber of Commerce">
+  <meta property="og:title" content="Timbuktu Chamber of Commerce" />
   <meta property="og:description" content="Explore local businesses and services through the Chamber member directory." />
-  <meta property="og:image" content="images/social_banner.svg">
+  <meta property="og:image" content="images/social_banner.svg" />
   <meta property="og:url" content="https://mparra26.github.io/wdd231/chamber/directory.html" />
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="website" />
 
-
-
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet" />
-  
-  <!-- Favicon -->
-  <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
 
-  <!-- Normalize CSS -->
+  <!-- Favicon -->
+  <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="styles/normalize.css" />
-  <!-- Main Stylesheet -->
+  
   <link rel="stylesheet" href="styles/member.css" />
 
-   <title>Directory | Timbuktu Chamber of Commerce</title>
-
+  <title>Directory | Timbuktu Chamber of Commerce</title>
 </head>
 
 <body>
   <header>
-
+    
     <nav>
       
       <ul class="navigation">
@@ -51,75 +49,74 @@
   <main>
     <h1>Timbuktu Chamber of Commerce</h1>
 
-    <img src="images/social_banner.svg" alt="OG Test Image" style="max-width: 300px; margin: 1rem auto; display: block;" />
- 
+    <!-- Test OG Image -->
+    <img src="images/social_banner.svg" alt="OG Test Image" class="test-og-image" />
+
     <div class="menu">
-    <button id="grid">Grid</button>
-    <button id="list">List</button>
-  </div>
+      <button id="grid">Grid</button>
+      <button id="list">List</button>
+    </div>
 
-  <article class="grid">
-    <section>
-      <img src="https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg" alt="Payson Utah Temple" />
-      <h3>Payson Utah</h3>
-      <p>2015</p>
-      <a href="https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng" target="_blank">Details</a>
-    </section>
+    <article class="grid">
+      <section>
+        <img src="https://via.placeholder.com/300x200?text=Payson+Temple" alt="Payson Utah Temple" />
+        <h3>Payson Utah</h3>
+        <p>2015</p>
+        <a href="https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng" target="_blank">Details</a>
+      </section>
 
-    <section>
-      <img src="https://assets.ldscdn.org/c6/07/c6077e1778bfdf5a91569ab3acf57e9c31a7175f/boise_idaho_temple_sunshine.jpeg" alt="Boise Idaho Temple" />
-      <h3>Boise Idaho</h3>
-      <p>1984</p>
-      <a href="https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng" target="_blank">Details</a>
-    </section>
+      <section>
+        <img src="https://via.placeholder.com/300x200?text=Boise+Temple" alt="Boise Idaho Temple" />
+        <h3>Boise Idaho</h3>
+        <p>1984</p>
+        <a href="https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng" target="_blank">Details</a>
+      </section>
 
-    <section>
-      <img src="https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/oakland_california_temple_exterior.jpeg" alt="Oakland California Temple" />
-      <h3>Oakland California</h3>
-      <p>1964</p>
-      <a href="https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng" target="_blank">Details</a>
-    </section>
+      <section>
+        <img src="https://via.placeholder.com/300x200?text=Oakland+Temple" alt="Oakland California Temple" />
+        <h3>Oakland California</h3>
+        <p>1964</p>
+        <a href="https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng" target="_blank">Details</a>
+      </section>
 
-    <section>
-      <img src="https://assets.ldscdn.org/72/14/7214efb047426ffe6b581906fa0092a624ebc637/seattle_washington_temple_exterior.jpg" alt="Seattle Washington Temple" />
-      <h3>Seattle Washington</h3>
-      <p>1980</p>
-      <a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng" target="_blank">Details</a>
-    </section>
-  </article>
-</main>
-    </section>
+      <section>
+        <img src="https://via.placeholder.com/300x200?text=Seattle+Temple" alt="Seattle Washington Temple" />
+        <h3>Seattle Washington</h3>
+        <p>1980</p>
+        <a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng" target="_blank">Details</a>
+      </section>
+    </article>
+
     <section id="members" class="grid-view">
       <!-- JavaScript will populate member cards here -->
     </section>
   </main>
 
   <footer>
-  <section>
-    <p><strong>Timbuktu Chamber of Commerce</strong><br>
-    10 Rue De La Paix<br>
-    Timbuktu, Mali 999<br>
-    info@timbuktucc.org<br>
-    (223) 555-2300</p>
+    <section>
+      <p><strong>Timbuktu Chamber of Commerce</strong><br />
+        10 Rue De La Paix<br />
+        Timbuktu, Mali 999<br />
+        info@timbuktucc.org<br />
+        (223) 555-2300</p>
 
-    <div class="social-icons">
-      <a href="instagram"><img src="images/instagram.svg" alt="instagram"></a>
-      <a href="x(twitter)"><img src="images/x(twitter).svg" alt="x(twitter)"></a>
-      <a href="facebook"><img src="images/facebook.svg" alt="facebook"></a>
-    </div>
-  </section>
+      <div class="social-icons">
+        <a href="instagram"><img src="images/instagram.svg" alt="instagram" /></a>
+        <a href="x(twitter)"><img src="images/x(twitter).svg" alt="x(twitter)" /></a>
+        <a href="facebook"><img src="images/facebook.svg" alt="facebook" /></a>
+      </div>
+    </section>
 
-  <section>
-    <p>WDD231 Class Project<br>
-    Mikel Parra<br>
-    &copy; <span id="year"></span> Timbuktu Chamber of Commerce<br>
-    Last Modification: <span id="lastModified"></span></p>
-  </section>
-</footer>
+    <section>
+      <p>WDD231 Class Project<br />
+        Mikel Parra<br />
+        &copy; <span id="year"></span> Timbuktu Chamber of Commerce<br />
+        Last Modification: <span id="lastModified"></span></p>
+    </section>
+  </footer>
 
   <script src="scripts/member.js" defer></script>
   <script src="scripts/footer.js" defer></script>
-    
-</body>
+  </body>
 
-</html>
+  </html>
