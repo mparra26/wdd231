@@ -2,15 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Directory of Timbuktu Chamber of Commerce members." />
   <meta name="author" content="Mikel Parra" />
 
   <!-- Social Media Meta Tags -->
   <meta property="og:title" content="Timbuktu Chamber of Commerce" />
-  <meta property="og:description"
-    content="Explore local businesses and services through the Chamber member directory." />
+  <meta property="og:description" content="Explore local businesses and services through the Chamber member directory." />
   <meta property="og:image" content="images/social_banner.svg" />
   <meta property="og:url" content="https://mparra26.github.io/wdd231/chamber/directory.html" />
   <meta property="og:type" content="website" />
@@ -18,7 +17,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
+  
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet" />
 
   <!-- Favicon -->
@@ -26,7 +25,7 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="styles/normalize.css" />
-
+  
   <link rel="stylesheet" href="styles/member.css" />
 
   <title>Directory | Chamber of Commerce</title>
@@ -34,9 +33,9 @@
 
 <body>
   <header>
-
+    
     <nav>
-
+      
       <ul class="navigation">
         <li><a href="index.html">Home</a></li>
         <li><a href="directory.html" class="active">Directory</a></li>
@@ -48,73 +47,75 @@
   </header>
 
   <main>
-    <h1> Chamber of Commerce</h1>
+    <h1>Chamber of Commerce</h1>
 
- <section class="card">
-    <h2> Chamber Members</h2>
-    <div class="button-group">
-      <button id="gridBtn" aria-pressed="true">Grid</button>
-      <button id="listBtn" aria-pressed="false">List</button>
-    </div>
+    <section class="card">
+      <h2>Chamber Members</h2>
+      <div class="button-group">
+        <button id="gridBtn" aria-pressed="true">Grid</button>
+        <button id="listBtn" aria-pressed="false">List</button>
+      </div>
 
-    <section id="membersContainer" class="grid-view">
+      <!-- ✅ FIX: Changed from <section> to <div> to prevent nested section issues -->
+      <div id="membersContainer" class="grid-view">
 
-    <article class="grid">
-      <section>
-        <img src="images/payson.svg" alt="Payson Utah Temple">
-        <h3>Payson Utah</h3>
-        <p>2015</p>
-        <a href="https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng"
-          target="_blank">Details</a>
-      </section>
+        <!-- ✅ FIX: Changed from <article class="grid"> to <div class="grid"> -->
+        <div class="grid">
 
-      <section>
-        <img src="images/boise.svg" alt="Boise Idaho Temple" />
-        <h3>Boise Idaho</h3>
-        <p>1984</p>
-        <a href="https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng"
-          target="_blank">Details</a>
-      </section>
+          <!-- ✅ FIX: Changed from <section> to <article> for each business -->
+          <article>
+            <img src="images/payson.svg" alt="Payson Utah Temple">
+            <h3>Payson Utah</h3>
+            <p>2015</p>
+            <a href="https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng" target="_blank">Details</a>
+          </article>
 
-      <section>
-        <img src="images/oakland.svg" alt="Oakland California Temple" />
-        <h3>Oakland California</h3>
-        <p>1964</p>
-        <a href="https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng"
-          target="_blank">Details</a>
-      </section>
+          <article>
+            <img src="images/boise.svg" alt="Boise Idaho Temple" />
+            <h3>Boise Idaho</h3>
+            <p>1984</p>
+            <a href="https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng" target="_blank">Details</a>
+          </article>
 
-      <section>
-        <img src="images/seatle.svg" alt="Seattle Washington Temple" />
-        <h3>Seattle Washington</h3>
-        <p>1980</p>
-        <a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng"
-          target="_blank">Details</a>
-      </section>
+          <article>
+            <img src="images/oakland.svg" alt="Oakland California Temple" />
+            <h3>Oakland California</h3>
+            <p>1964</p>
+            <a href="https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng" target="_blank">Details</a>
+          </article>
 
-      <section>
-    <img src="images/denver.svg" alt="Denver Colorado Temple">
-    <h3>Denver Colorado</h3>
-    <p>1986</p>
-    <a href="https://www.churchofjesuschrist.org/temples/details/denver-colorado-temple?lang=eng" target="_blank">Details</a>
-  </section>
+          <article>
+            <img src="images/seatle.svg" alt="Seattle Washington Temple" />
+            <h3>Seattle Washington</h3>
+            <p>1980</p>
+            <a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng" target="_blank">Details</a>
+          </article>
 
-  <!-- New Member 6 -->
-  <section>
-    <img src="images/dallas.svg" alt="Dallas Texas Temple">
-    <h3>Dallas Texas</h3>
-    <p>1984</p>
-    <a href="https://www.churchofjesuschrist.org/temples/details/dallas-texas-temple?lang=eng" target="_blank">Details</a>
-  </section>
+          <article>
+            <img src="images/denver.svg" alt="Denver Colorado Temple">
+            <h3>Denver Colorado</h3>
+            <p>1986</p>
+            <a href="https://www.churchofjesuschrist.org/temples/details/denver-colorado-temple?lang=eng" target="_blank">Details</a>
+          </article>
 
-  <!-- New Member 7 -->
-  <section>
-    <img src="images/atlanta.svg" alt="Atlanta Georgia Temple">
-    <h3>Atlanta Georgia</h3>
-    <p>1983</p>
-    <a href="https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng" target="_blank">Details</a>
-  </section>
-  </article>
+          <article>
+            <img src="images/dallas.svg" alt="Dallas Texas Temple">
+            <h3>Dallas Texas</h3>
+            <p>1984</p>
+            <a href="https://www.churchofjesuschrist.org/temples/details/dallas-texas-temple?lang=eng" target="_blank">Details</a>
+          </article>
+
+          <article>
+            <img src="images/atlanta.svg" alt="Atlanta Georgia Temple">
+            <h3>Atlanta Georgia</h3>
+            <p>1983</p>
+            <a href="https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng" target="_blank">Details</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
     <section>
@@ -125,9 +126,10 @@
         (223) 555-2300</p>
 
       <div class="social-icons">
-        <a href="instagram"><img src="images/instagram.svg" alt="instagram" /></a>
-        <a href="x(twitter)"><img src="images/x(twitter).svg" alt="x(twitter)" /></a>
-        <a href="facebook"><img src="images/facebook.svg" alt="facebook" /></a>
+        
+        <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram" /></a>
+        <a href="https://twitter.com"><img src="images/x-twitter.svg" alt="X (Twitter)" /></a>
+        <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook" /></a>
       </div>
     </section>
 
