@@ -1,7 +1,7 @@
 {
   "members": [
     {
-      "name": "Timbuktu Coffee Co.",
+      "name": "Payson temple",
       "address": "123 Bean St, Timbuktu",
       "phone": "(223) 111-0001",
       "website": "https://timbuktucafe.com",
@@ -10,7 +10,7 @@
       "image": "payson.svg"
     },
     {
-      "name": "Desert Tech Solutions",
+      "name": "Boise temple",
       "address": "456 Sand Rd, Timbuktu",
       "phone": "(223) 111-0002",
       "website": "https://deserttech.ml",
@@ -19,7 +19,7 @@
       "image": "boise.svg"
     },
     {
-      "name": "Camel Courier",
+      "name": "Oakland temple",
       "address": "789 Oasis Ave, Timbuktu",
       "phone": "(223) 111-0003",
       "website": "https://camelcourier.ml",
@@ -28,7 +28,7 @@
       "image": "oakland.svg"
     },
     {
-      "name": "Sahara Art Gallery",
+      "name": "Seatle temple",
       "address": "101 Art St, Timbuktu",
       "phone": "(223) 111-0004",
       "website": "https://saharaart.ml",
@@ -37,7 +37,7 @@
       "image": "seatle.svg"
     },
     {
-      "name": "Nomad Travel",
+      "name": "Denver temple",
       "address": "202 Journey Rd, Timbuktu",
       "phone": "(223) 111-0005",
       "website": "https://nomadtravel.ml",
@@ -46,7 +46,7 @@
       "image": "denver.svg"
     },
     {
-      "name": "Sunrise Solar",
+      "name": "Dallas temple",
       "address": "303 Energy Blvd, Timbuktu",
       "phone": "(223) 111-0006",
       "website": "https://sunrisesolar.ml",
@@ -55,7 +55,7 @@
       "image": "dallas.svg"
     },
     {
-      "name": "Oasis Spa",
+      "name": "Atlanta temple",
       "address": "404 Calm St, Timbuktu",
       "phone": "(223) 111-0007",
       "website": "https://oasisspa.ml",
