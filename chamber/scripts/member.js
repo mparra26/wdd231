@@ -6,7 +6,7 @@ const listBtn = document.getElementById("listBtn");
 async function getMembers() {
   const response = await fetch("data/members.json");
   const data = await response.json();
-  displayMembers(data);
+  displayMembers(data.members);
 }
 
 function displayMembers(members) {
@@ -16,7 +16,7 @@ function displayMembers(members) {
     const card = document.createElement("section");
     card.classList.add("member-card");
     card.innerHTML = `
-      <img src="images/${member.image}" alt="${member.name} logo">
+      <img src="images/${member.image}" alt="${member.name} logo" />
       <h3>${member.name}</h3>
       <p>${member.address}</p>
       <p>${member.phone}</p>
@@ -40,4 +40,6 @@ listBtn.addEventListener("click", () => {
   container.classList.remove("grid-view");
   gridBtn.setAttribute("aria-pressed", "false");
   listBtn.setAttribute("aria-pressed", "true");
-});getMembers();
+});
+
+getMembers();

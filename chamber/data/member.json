@@ -1,56 +1,67 @@
-[
-  {
-    "name": "Alex Smith",
-    "address": "123 Main St, Cityville",
-    "phone": "555-1234",
-    "website": "https://www.alphacorp.com",
-    "image": "Alex.png",
-    "membershipLevel": 3,
-    "notes": "Leading industry supplier."
-  },
-  {
-    "name": "John Doe",
-    "address": "456 Oak Rd, Townsville",
-    "phone": "555-5678",
-    "website": "https://www.betasolutions.com",
-    "image": "John.png",
-    "membershipLevel": 2,
-    "notes": "Innovative tech company."
-  },
-  {
-    "name": "Lizzie Brown",
-    "address": "789 Pine Ln, Villagetown",
-    "phone": "555-9012",
-    "website": "https://www.gammagoods.com",
-    "image": "Lizzie.png",
-    "membershipLevel": 1,
-    "notes": "Local artisan crafts."
-  },
-  {
-    "name": "Carol Johnson",
-    "address": "123 Main St, Cityville",
-    "phone": "555-1234",
-    "website": "https://www.alphacorp.com",
-    "image": "Carol.png",
-    "membershipLevel": 3,
-    "notes": "Leading industry supplier."
-  },
-  {
-    "name": "Kevin White",
-    "address": "123 Main St, Cityville",
-    "phone": "555-1234",
-    "website": "https://www.alphacorp.com",
-    "image": "Kevin.png",
-    "membershipLevel": 3,
-    "notes": "Leading industry supplier."
-  },
-  {
-    "name": "Kelly Green",
-    "address": "123 Main St, Cityville",
-    "phone": "555-1234",
-    "website": "https://www.alphacorp.com",
-    "image": "Kelly.png",
-    "membershipLevel": 3,
-    "notes": "Leading industry supplier."
-  }
-]
+{
+  "members": [
+    {
+      "name": "Timbuktu Coffee Co.",
+      "address": "123 Bean St, Timbuktu",
+      "phone": "(223) 111-0001",
+      "website": "https://timbuktucafe.com",
+      "membership": 1,
+      "description": "Serving the best local brews.",
+      "image": "coffee.svg"
+    },
+    {
+      "name": "Desert Tech Solutions",
+      "address": "456 Sand Rd, Timbuktu",
+      "phone": "(223) 111-0002",
+      "website": "https://deserttech.ml",
+      "membership": 3,
+      "description": "Innovative IT services in the heart of Mali.",
+      "image": "tech.svg"
+    },
+    {
+      "name": "Camel Courier",
+      "address": "789 Oasis Ave, Timbuktu",
+      "phone": "(223) 111-0003",
+      "website": "https://camelcourier.ml",
+      "membership": 2,
+      "description": "Fast delivery — desert style!",
+      "image": "courier.svg"
+    },
+    {
+      "name": "Sahara Art Gallery",
+      "address": "101 Art St, Timbuktu",
+      "phone": "(223) 111-0004",
+      "website": "https://saharaart.ml",
+      "membership": 1,
+      "description": "Celebrating local artists and culture.",
+      "image": "art.svg"
+    },
+    {
+      "name": "Nomad Travel",
+      "address": "202 Journey Rd, Timbuktu",
+      "phone": "(223) 111-0005",
+      "website": "https://nomadtravel.ml",
+      "membership": 3,
+      "description": "Your guide to unforgettable desert tours.",
+      "image": "travel.svg"
+    },
+    {
+      "name": "Sunrise Solar",
+      "address": "303 Energy Blvd, Timbuktu",
+      "phone": "(223) 111-0006",
+      "website": "https://sunrisesolar.ml",
+      "membership": 2,
+      "description": "Clean energy for a brighter future.",
+      "image": "solar.svg"
+    },
+    {
+      "name": "Oasis Spa",
+      "address": "404 Calm St, Timbuktu",
+      "phone": "(223) 111-0007",
+      "website": "https://oasisspa.ml",
+      "membership": 1,
+      "description": "Relaxation and wellness in the desert.",
+      "image": "spa.svg"
+    }
+  ]
+}

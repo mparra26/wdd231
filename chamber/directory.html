@@ -29,7 +29,7 @@
 
   <link rel="stylesheet" href="styles/member.css" />
 
-  <title>Directory | Timbuktu Chamber of Commerce</title>
+  <title>Directory | Chamber of Commerce</title>
 </head>
 
 <body>
@@ -48,13 +48,16 @@
   </header>
 
   <main>
-    <h1>Timbuktu Chamber of Commerce</h1>
+    <h1> Chamber of Commerce</h1>
 
-
-    <div class="menu">
-      <button id="grid">Grid</button>
-      <button id="list">List</button>
+ <section class="card">
+    <h2>Timbuktu Chamber Members</h2>
+    <div class="button-group">
+      <button id="gridBtn" aria-pressed="true">Grid</button>
+      <button id="listBtn" aria-pressed="false">List</button>
     </div>
+
+    <section id="membersContainer" class="grid-view">
 
     <article class="grid">
       <section>
@@ -88,16 +91,39 @@
         <a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng"
           target="_blank">Details</a>
       </section>
-    </article>
 
-    <section id="members" class="grid-view">
-      <!-- JavaScript will populate member cards here -->
-    </section>
+      <section>
+    <img src="images/denver.svg" alt="Denver Colorado Temple">
+    <h3>Denver Colorado</h3>
+    <p>1986</p>
+    <a href="https://www.churchofjesuschrist.org/temples/details/denver-colorado-temple?lang=eng" target="_blank">Details</a>
+  </section>
+
+  <!-- New Member 6 -->
+  <section>
+    <img src="images/dallas.svg" alt="Dallas Texas Temple">
+    <h3>Dallas Texas</h3>
+    <p>1984</p>
+    <a href="https://www.churchofjesuschrist.org/temples/details/dallas-texas-temple?lang=eng" target="_blank">Details</a>
+  </section>
+
+  <!-- New Member 7 -->
+  <section>
+    <img src="images/atlanta.svg" alt="Atlanta Georgia Temple">
+    <h3>Atlanta Georgia</h3>
+    <p>1983</p>
+    <a href="https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng" target="_blank">Details</a>
+  </section>
+</article>
+
+    <section id="membersContainer" class="grid-view">
+  <!-- JavaScript will populate member cards here -->
+</section>
   </main>
 
   <footer>
     <section>
-      <p><strong>Timbuktu Chamber of Commerce</strong><br />
+      <p><strong>Chamber of Commerce</strong><br />
         10 Rue De La Paix<br />
         Timbuktu, Mali 999<br />
         info@timbuktucc.org<br />
