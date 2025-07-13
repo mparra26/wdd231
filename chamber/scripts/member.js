@@ -4,7 +4,7 @@ const gridBtn = document.getElementById("gridBtn");
 const listBtn = document.getElementById("listBtn");
 
 async function getMembers() {
-  const response = await fetch("data/members.json");
+  const response = await fetch("data/member.json");
   const data = await response.json();
   displayMembers(data.members);
 }

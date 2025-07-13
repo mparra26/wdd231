@@ -7,7 +7,7 @@
       "website": "https://timbuktucafe.com",
       "membership": 1,
       "description": "Serving the best local brews.",
-      "image": "coffee.svg"
+      "image": "payson.svg"
     },
     {
       "name": "Desert Tech Solutions",
@@ -16,7 +16,7 @@
       "website": "https://deserttech.ml",
       "membership": 3,
       "description": "Innovative IT services in the heart of Mali.",
-      "image": "tech.svg"
+      "image": "boise.svg"
     },
     {
       "name": "Camel Courier",
@@ -25,7 +25,7 @@
       "website": "https://camelcourier.ml",
       "membership": 2,
       "description": "Fast delivery — desert style!",
-      "image": "courier.svg"
+      "image": "oakland.svg"
     },
     {
       "name": "Sahara Art Gallery",
@@ -34,7 +34,7 @@
       "website": "https://saharaart.ml",
       "membership": 1,
       "description": "Celebrating local artists and culture.",
-      "image": "art.svg"
+      "image": "seatle.svg"
     },
     {
       "name": "Nomad Travel",
@@ -43,7 +43,7 @@
       "website": "https://nomadtravel.ml",
       "membership": 3,
       "description": "Your guide to unforgettable desert tours.",
-      "image": "travel.svg"
+      "image": "denver.svg"
     },
     {
       "name": "Sunrise Solar",
@@ -52,7 +52,7 @@
       "website": "https://sunrisesolar.ml",
       "membership": 2,
       "description": "Clean energy for a brighter future.",
-      "image": "solar.svg"
+      "image": "dallas.svg"
     },
     {
       "name": "Oasis Spa",
@@ -61,7 +61,7 @@
       "website": "https://oasisspa.ml",
       "membership": 1,
       "description": "Relaxation and wellness in the desert.",
-      "image": "spa.svg"
+      "image": "atlanta.svg"
     }
   ]
 }
