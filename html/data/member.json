@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Payson temple",
+      "address": "123 Bean St, Timbuktu",
+      "phone": "(223) 111-0001",
+      "website": "https://timbuktucafe.com",
+      "membership": 1,
+      "description": "Serving the best local brews.",
+      "image": "payson.svg"
+    },
+    {
+      "name": "Boise temple",
+      "address": "456 Sand Rd, Timbuktu",
+      "phone": "(223) 111-0002",
+      "website": "https://deserttech.ml",
+      "membership": 3,
+      "description": "Innovative IT services in the heart of Mali.",
+      "image": "boise.svg"
+    },
+    {
+      "name": "Oakland temple",
+      "address": "789 Oasis Ave, Timbuktu",
+      "phone": "(223) 111-0003",
+      "website": "https://camelcourier.ml",
+      "membership": 2,
+      "description": "Fast delivery — desert style!",
+      "image": "oakland.svg"
+    },
+    {
+      "name": "Seatle temple",
+      "address": "101 Art St, Timbuktu",
+      "phone": "(223) 111-0004",
+      "website": "https://saharaart.ml",
+      "membership": 1,
+      "description": "Celebrating local artists and culture.",
+      "image": "seatle.svg"
+    },
+    {
+      "name": "Denver temple",
+      "address": "202 Journey Rd, Timbuktu",
+      "phone": "(223) 111-0005",
+      "website": "https://nomadtravel.ml",
+      "membership": 3,
+      "description": "Your guide to unforgettable desert tours.",
+      "image": "denver.svg"
+    },
+    {
+      "name": "Dallas temple",
+      "address": "303 Energy Blvd, Timbuktu",
+      "phone": "(223) 111-0006",
+      "website": "https://sunrisesolar.ml",
+      "membership": 2,
+      "description": "Clean energy for a brighter future.",
+      "image": "dallas.svg"
+    },
+    {
+      "name": "Atlanta temple",
+      "address": "404 Calm St, Timbuktu",
+      "phone": "(223) 111-0007",
+      "website": "https://oasisspa.ml",
+      "membership": 1,
+      "description": "Relaxation and wellness in the desert.",
+      "image": "atlanta.svg"
+    }
+  ]
+}
