@@ -3,96 +3,80 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="WDD 231 Web Frontend Development I - Mikel Parra. This page features coursework, certification credits, and web development projects.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="Mikel Parra">
+  
+  <title> Commerce - Home</title>
 
-  <title>WDD 231 Web Frontend Development I</title>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
+  
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/large.css">
 
-  <!-- JavaScript -->
-  <script src="scripts/date.js" defer></script>
-  <script src="scripts/course.js" defer></script>
-  </head>
 
+  <script defer src="scripts/main.js"></script>
+  <meta name="description" content="Welcome to the Timbuktu Chamber of Commerce. Discover local business spotlights, current events, and weather." />
+</head>
 <body>
   <header>
-    <img src="images/logo.svg" alt="Site Logo"/> 
-    <span id="course-title">WDD 231 Dynamic Web Fundamentals I</span>
-    <button id="menu" aria-label="Toggle navigation menu">☰</button>
+    <h1>Timbuktu Chamber of Commerce</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav id="navMenu">
-    <a href="index.html">Home</a>
-    <a href="directory.html">Chamber</a>
-    <a href="final/index.html">Final</a>
-    <a href="wayfinding.html">Wayfinding</a>
-  </nav>
+
 
   <main>
-    <h1>Home</h1>
-
-    <!-- Section 1: About Me -->
-    <section class="about-section card">
-      <img src="images/mikelparra.svg" alt="Mikel Parra" class="about-photo" />
-      <div class="about-text">
-        <h2>About Me</h2>
-        <p>I work as a construction material technician. I enjoy playing soccer, swimming, and practicing mixed martial arts. I’m also deeply engaged in my school program and passionate about web development and technology.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/hero.svg" alt="city skyline" />
+      <div class="hero-text">
+        <h2>Welcome to the Chamber of Commerce</h2>
+        <a href="join.html" class="cta-button">Join the Chamber</a>
       </div>
     </section>
 
-    <!-- Section 2: Course Certificate -->
-    <section class="card">
-      <h2>Course Certificate: Web and Computer Programming</h2>
-      <div>
-        <button id="allBtn">All Courses</button>
-        <button id="wddBtn">WDD Courses</button>
-        <button id="cseBtn">CSE Courses</button>
-      </div>
-      <div id="courseContainer"></div>
-      <p>Total Credits: <span id="creditTotal">12</span></p>
-    </section>
-
-    <!-- Section 3: Example Projects or Placeholder -->
-    <section class="card">
-      <h2>My Web Projects</h2>
+    <!-- Current Events -->
+    <section class="events">
+      <h2>Current Events</h2>
       <ul>
-        <li><a href="chamber/index.html">Chamber of Commerce Website</a></li>
-        <li><a href="final/index.html">Final Project: Nature Trails Explorer</a></li>
-        <li><a href="wayfinding.html">Wayfinding Activity</a></li>
+        <li>Summer Business Expo July 30, 2025</li>
+        <li>Monthly Networking Meetup August 12, 2025</li>
+        <li>Holiday Gala  December 5, 2025</li>
       </ul>
     </section>
-    </main>
+
+    <!-- Weather Section -->
+    <section class="weather">
+      <h2>Current Weather</h2>
+      <div id="weather-current">
+      </div>
+      <h3>3-Day Forecast</h3>
+      <div id="weather-forecast"></div>
+      <!-- Link to external weather page -->
+      <p>
+        For more detailed weather info, visit
+        <a href="https://weather.com/weather/today/l/Charlotte+NC?canonicalCityId=038fbac9d79f166fd315e6636087d549" target="_blank" rel="noopener noreferrer">Charlotte Weather on Weather.com</a>.
+      </p>
+    </section>
+
+    <!-- Company Spotlights -->
+    <section class="spotlights">
+      <h2>Member Spotlights</h2>
+      <div id="spotlight-container" class="spotlight-cards">
+        <!-- JS inserts spotlight cards here -->
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; <span id="year"></span> Mikel Parra | North Carolina</p>
-    <p id="lastModified"></p>
-    <div class="social">
-      <a href="https://github.com/mparra26/wdd231" target="_blank">
-        <img src="images/github.svg" alt="GitHub icon" width="24" /> GitHub
-      </a>
-      <a href="https://www.linkedin.com/in/mikel-parra-79ab28218/" target="_blank">
-        <img src="images/linkid.svg" alt="LinkedIn icon" width="24" /> LinkedIn
-      </a>
-      <a href="https://facebook.com" target="_blank">
-        <img src="images/facebook.svg" alt="Facebook icon" width="24" /> Facebook
-      </a>
-      <a href="https://instagram.com" target="_blank">
-        <img src="images/instagram.svg" alt="Instagram icon" width="24" /> Instagram
-      </a>
-      <a href="https://x.com" target="_blank">
-        <img src="images/x(twitter).svg" alt="X(twitter) icon" width="24" /> X(twitter)
-      </a>
-    </div>
+    <p>&copy; 2025 Timbuktu Chamber of Commerce</p>
   </footer>
 </body>
 </html>
