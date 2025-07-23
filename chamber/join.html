@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Mikel Parra" />
+  <meta name="description" content="Join the Chamber of Commerce and become part of a vibrant business community." />
+  <title>Join Our Chamber | Chamber of Commerce</title>
+
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/small.css" />
+  <link rel="stylesheet" href="styles/large.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <a href="wayfinding.html">Wayfinding</a>
+        <li><a href="join.html" aria-current="page">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Join Our Chamber of Commerce</h1>
+
+    <section class="join-intro">
+      <p>Connect with other local businesses, attend exclusive events, and grow your network by joining our Chamber today. Fill out the form below to get started.</p>
+    </section>
+
+    <form action="thankyou.html" method="get" class="join-form">
+      <fieldset>
+        <legend>Contact Information</legend>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required />
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Business Details</legend>
+
+        <label for="businessName">Business Name:</label>
+        <input type="text" id="businessName" name="businessName" required />
+
+        <label for="membership">Membership Level:</label>
+        <select id="membership" name="membership" required>
+          <option value="">Select one</option>
+          <option value="bronze">Bronze</option>
+          <option value="silver">Silver</option>
+          <option value="gold">Gold</option>
+        </select>
+
+        <label for="description">Business Description:</label>
+        <textarea id="description" name="description" rows="4" placeholder="Tell us about your business..."></textarea>
+      </fieldset>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chamber of Commerce</p>
+  </footer>
+
+</body>
+</html>
