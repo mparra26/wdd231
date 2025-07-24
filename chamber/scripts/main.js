@@ -6,7 +6,7 @@ fetch('Charlotte Weather on Weather.com.')
   });
 
 // Example: Load members JSON, filter gold/silver, randomly pick 2-3, insert spotlight cards
-fetch('members.json')
+fetch('member.json')
   .then(response => response.json())
   .then(members => {
     const filtered = members.filter(m => m.membership === 'gold' || m.membership === 'silver');
