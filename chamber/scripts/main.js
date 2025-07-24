@@ -1,11 +1,11 @@
 const weatherData = {
   "location": {
-    "name": "London",
-    "region": "City of London, Greater London",
-    "country": "United Kingdom",
+    "name": "North Carolina",
+    "region": "Charlotte, Midland",
+    "country": "United States of America",
     "lat": 51.52,
     "lon": -0.11,
-    "tz_id": "Europe/London",
+    "tz_id": "America/North_Carolina",
     "localtime_epoch": 1613896955,
     "localtime": "2021-02-21 8:42"
   },
