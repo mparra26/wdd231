@@ -4,10 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Mikel Parra">
-  <meta name="description" content="Join the Chamber of Commerce and become part of a vibrant business community." />
+  <meta name="description" content="Join the Chamber of Commerce and become part of a vibrant business community.">
   <title>Join Our Chamber | Chamber of Commerce</title>
 
-  <link rel="stylesheet" href="styles/styles.css" >
+  <!-- ✅ Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- ✅ Open Graph Metadata -->
+  <meta property="og:title" content="Join the Chamber | Chamber of Commerce">
+  <meta property="og:description" content="Become a member of our thriving business community. Expand your network and gain exclusive access to resources and events.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:url" content="https://yourdomain.com/join.html">
+  <meta property="og:type" content="website">
+
+  <!-- ✅ Stylesheets -->
+  <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/large.css">
 </head>
@@ -18,7 +29,7 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="directory.html">Directory</a></li>
-        </li><a href="wayfinding.html">Wayfinding</a></li>
+        <li><a href="wayfinding.html">Wayfinding</a></li>
         <li><a href="join.html" aria-current="page">Join</a></li>
       </ul>
     </nav>
@@ -36,23 +47,23 @@
         <legend>Contact Information</legend>
 
         <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" required />
+        <input type="text" id="firstName" name="firstName" required>
 
         <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" required />
+        <input type="text" id="lastName" name="lastName" required>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <input type="email" id="email" name="email" required>
 
         <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="phone" />
+        <input type="tel" id="phone" name="phone">
       </fieldset>
 
       <fieldset>
         <legend>Business Details</legend>
 
         <label for="businessName">Business Name:</label>
-        <input type="text" id="businessName" name="businessName" required />
+        <input type="text" id="businessName" name="businessName" required>
 
         <label for="membership">Membership Level:</label>
         <select id="membership" name="membership" required>
