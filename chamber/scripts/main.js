@@ -1,4 +1,4 @@
-fetch('YOUR_WEATHER_API_URL')
+fetch('Charlotte Weather on Weather.com.')
   .then(response => response.json())
   .then(data => {
     document.getElementById('weather-current').textContent = `Temp: ${data.current.temp}°F, ${data.current.weather[0].description}`;
