@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Game Hub - Contact</title>
+  <meta name="description" content="Contact Video Game Hub for questions or feedback." />
+  <meta name="author" content="Mikel Parra">
+  <link rel="icon" href="favicon/favicon.ico">
+  <link rel="stylesheet" href="styles/styles4.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="home.html" class="logo">Video Game Hub</a>
+      <button id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+        &#9776;
+      </button>
+      <nav id="primary-navigation" class="nav">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Contact Us</h1>
+      <form action="form-action.html" method="POST">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Video Game Hub | <a href="https://www.youtube.com/watch?v=AOWm-tgYjRQ" target="_blank" rel="noopener">Project Demo Video</a></p>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('primary-navigation');
+
+    navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
+      navToggle.setAttribute('aria-expanded', !expanded);
+      navMenu.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>

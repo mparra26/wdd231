@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Video Game Hub - Home</title>
+  <meta name="description" content="Latest video game news, reviews, and community forums for gamers." />
+  <meta name="author" content="Mikel Parra">
+  <!-- Open Graph example -->
+  <meta property="og:title" content="Video Game Hub">
+  <meta property="og:description" content="A community site for gamers with news and reviews." />
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon/favicon.ico">
+  <link rel="stylesheet" href="styles/styles4.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="home.html" class="logo">Video Game Hub</a>
+      <button id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+        &#9776;
+      </button>
+      <nav id="primary-navigation" class="nav">
+        <ul>
+          <li><a href="home.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Welcome to Video Game Hub</h1>
+      <p>Your go-to place for the latest in video game news, reviews, and a community forum.</p>
+    </section>
+
+    <section id="dynamic-content">
+      <!-- Dynamic content will be inserted here by JavaScript -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Video Game Hub | <a href="https://www.youtube.com/watch?v=AOWm-tgYjRQ" target="_blank" rel="noopener">Project Demo Video</a></p>
+  </footer>
+
+  <script>
+    // Simple nav toggle script for hamburger menu
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('primary-navigation');
+
+    navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
+      navToggle.setAttribute('aria-expanded', !expanded);
+      navMenu.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>

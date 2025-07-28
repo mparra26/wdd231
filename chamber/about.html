@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Game Hub - About</title>
+  <meta name="description" content="About Video Game Hub and our mission to connect gamers." />
+  <meta name="author" content="Mikel Parra">
+  <link rel="icon" href="favicon/favicon.ico">
+  <link rel="stylesheet" href="styles/styles4.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="home.html" class="logo">Video Game Hub</a>
+      <button id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+        &#9776;
+      </button>
+      <nav id="primary-navigation" class="nav">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>About Video Game Hub</h1>
+      <p>Video Game Hub was created to bring gamers together by providing news, reviews, and forums.</p>
+      <p>Our mission is to keep the gaming community informed and connected.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Video Game Hub | <a href="https://www.youtube.com/watch?v=AOWm-tgYjRQ" target="_blank" rel="noopener">Project Demo Video</a></p>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('primary-navigation');
+
+    navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
+      navToggle.setAttribute('aria-expanded', !expanded);
+      navMenu.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>
