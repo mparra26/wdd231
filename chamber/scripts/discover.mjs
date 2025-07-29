@@ -1,4 +1,4 @@
-import { places } from '../data/places.mjs';
+import { places } from './places.mjs';
 
 const container = document.querySelector('#card-container');
 
