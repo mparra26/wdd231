@@ -84,7 +84,7 @@ export const places = [
     "address": "6 Chome-1-16 Toyosu, Koto City, Tokyo",
     "cost": "¥3,800 ($25 USD)",
     "description": "Immersive digital art museum where you walk through rooms filled with interactive light, water, and mirrors. A magical experience.",
-    "imageUrl": "images/Teamlab_Tokyo.webp",
+    "imageUrl": "images/TeamLab_Tokyo.webp",
     "url": "https://planets.teamlab.art/tokyo/"
   }
 ]
