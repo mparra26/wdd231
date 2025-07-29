@@ -1,0 +1,51 @@
+body {
+  background-color: #b8abab; /* Light teal, soft contrast with card */
+  color: #020202; /* Optional: Makes text readable on dark cards */
+}
+
+.place-card {
+  border: 1px solid #0888f0;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #004d40;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.place-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.discover-grid {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  background-color: #00695c; /* Optional: background behind nav */
+  padding: 1rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #0a0a0a; /* Bright yellow on hover/active */
+  text-decoration: underline;
+}
