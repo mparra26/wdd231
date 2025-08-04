@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn more about fun travel in Japan and share your favorite places!" />
+  <meta name="author" content="Your Name" />
+  <meta property="og:title" content="About Japan Fun Places" />
+  <meta property="og:description" content="Share your favorite fun place in Japan!" />
+  <meta property="og:image" content="images/og-image.webp" />
+  <title>Japan Fun Places | About</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <script type="module" src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Japan Fun Places</a>
+      <button id="menu-toggle" aria-label="Toggle Navigation">&#9776;</button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="places.html">Places</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>About This Site</h1>
+      <p>Japan Fun Places is a student-built project that showcases amazing attractions, shrines, nature, and city experiences across Japan. The goal is to inspire exploration and share lesser-known gems as well as popular landmarks.</p>
+    </section>
+
+    <section>
+      <h2>Share Your Favorite Place</h2>
+      <form action="form.html" method="get">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="place">Favorite Place in Japan:</label>
+        <input type="text" id="place" name="place" required />
+
+        <label for="desc">Why do you love it?</label>
+        <textarea id="desc" name="desc" required></textarea>
+
+        <label for="rating">Rate it (1–5):</label>
+        <select id="rating" name="rating" required>
+          <option value="">Select</option>
+          <option value="5">5 – Amazing</option>
+          <option value="4">4 – Great</option>
+          <option value="3">3 – Good</option>
+          <option value="2">2 – Meh</option>
+          <option value="1">1 – Not fun</option>
+        </select>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Japan Fun Places | <a href="attributions.html">Attributions</a></p>
+    <a href="https://your-video-link.com" target="_blank">Video Demo</a>
+  </footer>
+</body>
+</html>
