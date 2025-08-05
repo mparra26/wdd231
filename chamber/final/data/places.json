@@ -24,19 +24,19 @@
     "rating": 5
   },
   {
-    "name": "Arashiyama Bamboo Grove",
-    "location": "Kyoto",
-    "type": "Nature",
-    "image": "images/arashiyama.webp",
-    "description": "A magical path through towering green bamboo.",
+    "name": "Okinawa Churaumi Aquarium",
+    "location": "Okinawa",
+    "type": "Aquarium",
+    "image": "images/churaumi_aquarium.webp",
+    "description": "One of the largest aquariums in the world, featuring whale sharks and coral reef tanks.",
     "rating": 4
   },
-  {
-    "name": "Himeji Castle",
-    "location": "Hyogo",
-    "type": "Historical",
-    "image": "images/himeji_castle.webp",
-    "description": "Japan’s most spectacular samurai castle, preserved from feudal times.",
+   {
+    "name": "Ghibli Museum",
+    "location": "Mitaka, Tokyo",
+    "type": "Museum",
+    "image": "images/ghibli_museum.webp",
+    "description": "A whimsical museum dedicated to the works of Studio Ghibli, creators of Spirited Away.",
     "rating": 5
   },
   {
