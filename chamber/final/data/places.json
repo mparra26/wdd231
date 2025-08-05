@@ -3,7 +3,7 @@
     "name": "Fushimi Inari Shrine",
     "location": "Kyoto",
     "type": "Shrine",
-    "image": "images/fushimi-inari.webp",
+    "image": "images/fushimi_inari.webp",
     "description": "Famous for its thousands of red torii gates leading up a mountain trail.",
     "rating": 5
   },
@@ -11,7 +11,7 @@
     "name": "Shibuya Crossing",
     "location": "Tokyo",
     "type": "City",
-    "image": "images/shibuya.webp",
+    "image": "images/shibuya_crossing.webp",
     "description": "The world's busiest pedestrian crossing and an iconic cityscape.",
     "rating": 4
   },
@@ -19,7 +19,7 @@
     "name": "Mount Fuji",
     "location": "Honshu",
     "type": "Nature",
-    "image": "images/mount-fuji.webp",
+    "image": "images/mount_fuji.webp",
     "description": "Japan’s tallest mountain and an iconic natural wonder.",
     "rating": 5
   },
@@ -35,7 +35,7 @@
     "name": "Himeji Castle",
     "location": "Hyogo",
     "type": "Historical",
-    "image": "images/himeji.webp",
+    "image": "images/Himeji_Castle.webp",
     "description": "Japan’s most spectacular samurai castle, preserved from feudal times.",
     "rating": 5
   },
@@ -43,7 +43,7 @@
     "name": "Nara Deer Park",
     "location": "Nara",
     "type": "Nature",
-    "image": "images/nara.webp",
+    "image": "images/nara_deer_park.webp",
     "description": "Home to friendly wild deer that bow for treats.",
     "rating": 4
   },
@@ -51,7 +51,7 @@
     "name": "Tokyo Skytree",
     "location": "Tokyo",
     "type": "City",
-    "image": "images/skytree.webp",
+    "image": "images/tokyo_skytree.webp",
     "description": "One of the tallest towers in the world with amazing views.",
     "rating": 5
   },
@@ -59,7 +59,7 @@
     "name": "Osaka Dotonbori",
     "location": "Osaka",
     "type": "City",
-    "image": "images/dotonbori.webp",
+    "image": "images/osaka_dotonbori.webp",
     "description": "Vibrant nightlife with neon lights, street food, and fun.",
     "rating": 4
   },
@@ -67,7 +67,7 @@
     "name": "Okinawa Beaches",
     "location": "Okinawa",
     "type": "Beach",
-    "image": "images/okinawa.webp",
+    "image": "images/okinawa_beaches.webp",
     "description": "White sand beaches and turquoise waters, perfect for relaxing.",
     "rating": 5
   },
@@ -75,7 +75,7 @@
     "name": "Aokigahara Forest",
     "location": "Yamanashi",
     "type": "Nature",
-    "image": "images/aokigahara.webp",
+    "image": "images/aokigahara_forest.webp",
     "description": "A quiet, dense forest at the base of Mt. Fuji.",
     "rating": 3
   },
@@ -83,7 +83,7 @@
     "name": "Hiroshima Peace Memorial",
     "location": "Hiroshima",
     "type": "Historical",
-    "image": "images/hiroshima.webp",
+    "image": "images/hiroshima_peace.webp",
     "description": "A tribute to the past and hope for peace.",
     "rating": 5
   },
@@ -91,7 +91,7 @@
     "name": "Nikko Toshogu Shrine",
     "location": "Tochigi",
     "type": "Shrine",
-    "image": "images/nikko.webp",
+    "image": "images/nikko_toshogu_shrine.webp",
     "description": "An ornate shrine dedicated to Tokugawa Ieyasu.",
     "rating": 4
   },
@@ -99,7 +99,7 @@
     "name": "Hakone Onsen",
     "location": "Kanagawa",
     "type": "Relaxation",
-    "image": "images/hakone.webp",
+    "image": "images/hakone_onsen.webp",
     "description": "Famous for its hot springs and mountain views.",
     "rating": 5
   },
@@ -107,7 +107,7 @@
     "name": "Sapporo Snow Festival",
     "location": "Hokkaido",
     "type": "Festival",
-    "image": "images/sapporo.webp",
+    "image": "images/sapporo_snow_festival.webp",
     "description": "Winter wonderland of snow sculptures and fun.",
     "rating": 5
   },
@@ -115,7 +115,7 @@
     "name": "Naoshima Art Island",
     "location": "Kagawa",
     "type": "Art",
-    "image": "images/naoshima.webp",
+    "image": "images/naoshima_art_island.webp",
     "description": "Island filled with modern art museums and installations.",
     "rating": 4
   }
