@@ -27,7 +27,7 @@
     "name": "Arashiyama Bamboo Grove",
     "location": "Kyoto",
     "type": "Nature",
-    "image": "images/arashiyama.webp",
+    "image": "images/.webp",
     "description": "A magical path through towering green bamboo.",
     "rating": 4
   },
@@ -35,7 +35,7 @@
     "name": "Himeji Castle",
     "location": "Hyogo",
     "type": "Historical",
-    "image": "images/himeji_castle.webp",
+    "image": "images/.webp",
     "description": "Japan’s most spectacular samurai castle, preserved from feudal times.",
     "rating": 5
   },
