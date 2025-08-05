@@ -129,3 +129,9 @@ main {
   display: block;
   border-radius: 0.5rem;
 }
+.hero img {
+  width: 10%;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+}
