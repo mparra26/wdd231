@@ -2,14 +2,14 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #F5F0E1;
-    color: #2E5339;
+    background-color: #ffffff;
+    color: #004d40;
     margin: 0;
     padding: 0;
 }
 
 header, footer {
-    background-color: #2E5339;
+    background-color: #004d40;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -34,11 +34,11 @@ main {
 }
 
 .forest-green {
-    background-color: #2E5339;
+    background-color: #004d40;
 }
 
 .beige {
-    background-color: #F5F0E1;
+    background-color: #ffffff;
     border: 1px solid #ccc;
 }
 
